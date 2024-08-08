@@ -4,10 +4,17 @@
   "package": "xyz.gaminered.cloudflared_connector.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "ClientConnectionMixin"
   ],
   "client": [
+    "ConnectScreenConnectThreadMixin",
+    "ConnectScreenMixin",
+    "DirectConnectScreenMixin",
+    "MultiPlayerScreenMixin",
+    "ServerInfoMixin",
+    "ServerListMixin"
   ],
   "injectors": {
-	"defaultRequire": 1
+    "defaultRequire": 1
   }
 }

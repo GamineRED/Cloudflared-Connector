@@ -1,0 +1,5 @@
+accessWidener v1 named
+accessible field net/minecraft/client/gui/screen/multiplayer/ConnectScreen parent Lnet/minecraft/client/gui/screen/Screen;
+accessible field net/minecraft/client/gui/screen/multiplayer/ConnectScreen failureErrorMessage Lnet/minecraft/text/Text;
+accessible method net/minecraft/client/gui/screen/multiplayer/ConnectScreen setStatus (Lnet/minecraft/text/Text;)V
+accessible field net/minecraft/client/gui/screen/multiplayer/ConnectScreen connectingCancelled Z

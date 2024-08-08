@@ -4,22 +4,17 @@
   "version": "${version}",
   "name": "Cloudflared Connector",
   "description": "",
-  "authors": [],
+  "authors": [
+	"GamineRED"
+  ],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/cloudflared_connector/icon.png",
   "environment": "client",
-  "entrypoints": {
-	"client": [
-	  "xyz.gaminered.cloudflared_connector.client.Cloudflared_connectorClient"
-	],
-	"main": [
-	  "xyz.gaminered.cloudflared_connector.Cloudflared_connector"
-	]
-  },
+  "entrypoints": {},
   "mixins": [
 	"cloudflared_connector.mixins.json"
   ],
+  "accessWidener": "cloudflared_connector.accesswidener",
   "depends": {
 	"fabricloader": ">=${loader_version}",
 	"minecraft": "${minecraft_version}"
